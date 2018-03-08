@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="main_text">Tobiasz Wróbel</string>
+    <string name="button1_text">Przycisk 1</string>
+    <string name="button2_text">Przycisk 2</string>
+    <string name="button3_text">Przycisk 3</string>
+    <string name="activity2_text">Przyciśnij mnie dłużej</string>
+    <string name="activity3_text">Aby cofnąć użyj paska tytułu lub przycisku Powrót</string>
+    <string name="back_button_text">Powrót</string>
+</resources>
