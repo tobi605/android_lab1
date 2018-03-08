@@ -17,10 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity2" />
-        <activity android:name=".Activity3"
+        <activity
+            android:name=".Activity3"
             android:label="Tu aktywność 3"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/MyThemeHolo"/>
+            android:theme="@style/MyThemeHolo" />
+        <activity android:name=".Activity4" />
+        <activity android:name=".Activity5"></activity>
     </application>
 
 </manifest>

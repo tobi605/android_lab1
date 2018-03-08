@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.polibuda.gimbus.lab1.Activity4">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/activity4_button"
+        android:text="@string/activity4_button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disappear"
+        android:id="@+id/tv1"
+        android:layout_below="@id/activity4_button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disappear"
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_toRightOf="@id/tv1"
+        android:layout_toEndOf="@id/tv1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disappear"
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"
+        android:layout_toRightOf="@id/tv2"
+        android:layout_toEndOf="@id/tv2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disappear"
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv3"
+        android:layout_toRightOf="@id/tv3"
+        android:layout_toEndOf="@id/tv3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disappear"
+        android:id="@+id/tv5"
+        android:layout_below="@id/tv4"
+        android:layout_toRightOf="@id/tv4"
+        android:layout_toEndOf="@id/tv4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disappear"
+        android:id="@+id/tv6"
+        android:layout_below="@id/tv5"
+        android:layout_toRightOf="@id/tv5"
+        android:layout_toEndOf="@id/tv5" />
+</RelativeLayout>

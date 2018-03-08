@@ -32,6 +32,18 @@
         android:text="@string/button3_text"
         android:layout_gravity="center"
         android:onClick="run3"/>
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:text="@string/button4_text"
+        android:layout_gravity="center"
+        android:onClick="run4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:text="@string/button5_text"
+        android:layout_gravity="center"
+        android:onClick="run5"/>
 </LinearLayout>

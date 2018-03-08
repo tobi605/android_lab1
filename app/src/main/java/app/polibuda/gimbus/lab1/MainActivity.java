@@ -31,4 +31,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), Activity3.class);
         startActivity(intent);
     }
+
+
+    public void run4(View view) {
+        Intent intent = new Intent(getApplicationContext(), Activity4.class);
+        startActivity(intent);
+    }
+
+    public void run5(View view) {
+        startActivity(new Intent(getApplicationContext(), Activity5.class));
+    }
 }
