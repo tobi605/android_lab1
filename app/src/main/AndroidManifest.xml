@@ -23,7 +23,8 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/MyThemeHolo" />
         <activity android:name=".Activity4" />
-        <activity android:name=".Activity5"></activity>
+        <activity android:name=".Activity5" />
+        <activity android:name=".Activity6"></activity>
     </application>
 
 </manifest>

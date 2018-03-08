@@ -6,9 +6,13 @@
     <string name="button3_text">Przycisk 3</string>
     <string name="button4_text">Przycisk 4</string>
     <string name="button5_text">Przycisk 5</string>
+    <string name="button6_text">Przycisk 6</string>
     <string name="activity2_text">Przyciśnij mnie dłużej</string>
     <string name="activity3_text">Aby cofnąć użyj paska tytułu lub przycisku Powrót</string>
     <string name="back_button_text">Powrót</string>
     <string name="activity4_button">Startuj</string>
     <string name="disappear">Zniknę</string>
+    <string name="type_name">Wpisz imię</string>
+    <string name="type_age">Wpisz wiek</string>
+    <string name="check_button_text">Sprawdź</string>
 </resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.polibuda.gimbus.lab1.Activity6">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_name_text"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:text="@string/type_name"
+        android:textSize="20sp"
+        android:layout_marginStart="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_age_text"
+        android:layout_below="@id/type_name_text"
+        android:layout_alignLeft="@id/type_name_text"
+        android:layout_marginTop="15dp"
+        android:text="@string/type_age"
+        android:textSize="20sp"
+        android:layout_alignStart="@id/type_name_text" />
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_name"
+        android:layout_toRightOf="@+id/type_name_text"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/type_name_text"
+        android:layout_marginStart="20dp"
+        android:hint="@string/type_name"/>
+    <EditText
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_age"
+        android:layout_below="@id/type_name"
+        android:layout_toRightOf="@+id/type_age_text"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/type_age_text"
+        android:layout_marginStart="20dp"
+        android:hint="@string/type_age"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/type_age"
+        android:text="@string/check_button_text"
+        android:layout_marginTop="25dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hidden_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@id/check_button"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+</RelativeLayout>

@@ -41,4 +41,8 @@ public class MainActivity extends AppCompatActivity {
     public void run5(View view) {
         startActivity(new Intent(getApplicationContext(), Activity5.class));
     }
+
+    public void run6(View view) {
+        startActivity(new Intent(getApplicationContext(), Activity6.class));
+    }
 }
